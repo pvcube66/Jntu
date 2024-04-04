@@ -1,0 +1,62 @@
+.register{
+    height:30vh;
+    width:90%;
+    border: 2px solid black;
+margin-left: 10px;
+}
+img{
+    margin-left: 120px;
+}
+.register h1{
+    margin-left: 15px;
+}
+input{
+    margin-left: 15vh;
+}
+#btn{
+    margin-top: 5px;
+    margin-left: 23vh;
+}
+*  {
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text */
+}
+body {
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text */
+}
+
+.register {
+    /* border: 2px solid #1E90FF; Blue shade border */
+    padding: 20px; /* Add padding for spacing inside the form */
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and box-shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.register h1 {
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.register input[type="text"] {
+    width: 90%; /* Full width input field */
+    padding: 10px; /* Add padding for input field */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-bottom: 10px; /* Add spacing below the input field */
+    margin-left: -1px;
+}
+
+.register button {
+    background-color: #1E90FF; /* Blue shade background for the button */
+    color: white; /* White text color for the button */
+    padding: 10px 20px; /* Add padding for the button */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.open-sans-text {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}

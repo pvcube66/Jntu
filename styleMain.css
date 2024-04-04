@@ -1,0 +1,37 @@
+img{
+    margin-left: 40%;
+}
+table{
+    /* margin:2px;  */
+    border:2px solid black;
+    border-collapse: collapse; /* Collapse borders into a single line */
+}
+*  {
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text */
+}
+
+th {
+    background-color: #1E90FF; /* Dark blue shade for column names */
+    color: white; /* White text color */
+}
+a{
+    margin-top: 15vh;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10vh;
+}
+.butt button{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.open-sans-text {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
